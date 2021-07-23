@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #5d5d5d;
+    background: #f4f4f4;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #fe9b00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover{
+    color: #090909;
+}
+.top-line{
+    height: 17px;
+    background: #090909;
+}
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    margin:21px 0 17px 0;
+}
+nav ul{
+    float: right ;
+}
+nav ul li{
+    
+    float: left;
+    margin-left: 63px;
+    line-height: 138px;
+}
+
+.active_link{
+        color: #090909
+}    
+header{
+    border-bottom: 1px solid #e3e3e3;
+    overflow: hidden;
+    
+}
+.banner{
+    height: 380px;
+    width: 960px;
+    background: url(../img/banner.jpg) no-repeat;
+    position: relative;
+    margin-top: 20px;
+    border-bottom: 1px solid #e3e3e3;
+    overflow: hidden;
+    padding-bottom: 19px;
+}
+.black-label{
+    background:#090909;
+    overflow: hidden;
+    width: 443px;
+    height: 43px;
+    position: absolute;
+    bottom: 45px;
+    left: 30px;
+}
+.black-label p {
+    line-height: 43px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999898;
+    margin-left: 12px;
+}
+.link-hov:hover{
+    color: #fe9b00;
+}   
+.black-label a{
+    float: right;
+    margin-right: 7px;
+    background: url(../img/orang_arrow.png) no-repeat right ;
+    padding-right: 15px;
+    }
+ 
+.content_box{
+    float: left;
+    width: 283px;
+    margin-right: 55px;
+}
+p{
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.content_box span{
+    margin-top: 32px;
+    font-style: italic;
+    color: #090909;    
+}
+#content, .portfolio{
+    overflow: hidden;
+    margin-top: 25px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #e3e3e3;
+}
+#last_colom, #last_picture{
+    margin-right: 0;
+}
+h2, h3{
+    font-weight: bold;
+    color: #090909;
+    text-transform: uppercase;
+}
+
+#content h2, .portfolio h2{
+    font-size: 18px;
+    border-bottom: 6px solid #090909;
+    padding-bottom: 12px;
+    margin-bottom: 21px;
+    background: url(../img/black_arrow.png) 0 5px no-repeat;
+    padding-left: 29px;
+    }
+
+.content_box a{
+    background: url(../img/black_arrow_small.png) 0 4px no-repeat;
+    padding-left: 23px;
+}
+
+.content_box ul li{
+    background: url(../img/chek.png) no-repeat;
+    padding-left: 29px;
+    margin-top: 20px;    
+}
+
+.picture_potfolio{
+    width: 215px;
+    height: 135px;
+    float: left;
+    margin-right: 33px;
+    position: relative;
+}
+
+.portfolio h2{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.picture_potfolio a{
+    padding: 5px 9px 2px 9px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    background-color: #fe9b00;;
+    color: #090909
+}
+.picture_potfolio span{
+    padding-right: 15px;
+    background: url(../img/black_arrow_small.png) no-repeat right  ;
+
+}
+.bottom_row{
+    margin-top: 27px;
+    overflow: hidden;
+    margin-bottom: 47px;
+}
+
+.blog_updates{
+    float: left;
+    width: 658px;
+}
+
+.social ul li{
+    float: left;
+    margin-right: 14px;
+}
+ 
+.bottom_row h3{
+    background: url(../img/black_arrow_small.png) no-repeat 0 5px;
+    padding-left: 24px;
+    padding-bottom: 23px;
+    font-size: 12px;
+
+}
+.social{
+    float: right;
+    margin-right: 47px;
+}
+footer{
+    background: #e2e2e2;
+    overflow: hidden;
+    padding: 32px 0 36px 0;
+}
+.logo_footer{
+    float: right;
+}
+.footer_menu{
+    float: left;
+    
+}
+.footer_menu ul li{
+    float: left;  
+    border-left: 1px solid #5d5d5d;  
+    padding: 0 8px;
+    line-height: 1;
+}
+
+.footer_menu ul{
+    overflow: hidden;
+}
+
+.footer_menu ul li:first-child{
+    padding-left: 0;
+    border-left: none;    
+}
+.footer_menu a{
+    text-transform: capitalize;
+    color: #5d5d5d;
+    font-weight: normal;     
+}
+.footer_menu a:hover{
+    text-decoration: underline;
+}
+.footer_menu p{
+    margin-top: 3px;
+}
+
+
+ 
+
