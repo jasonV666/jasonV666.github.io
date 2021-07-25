@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+header{
+    color:#fff;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, .8)), url(../img/bg_head.jpg) no-repeat center 10%/cover  ;
+    display: flex;
+    flex-direction: column;       
+}
+.logo{
+    font-size:2.25rem;
+    font-weight: 800;
+}
+sup, .headline h1 span{
+    color:#39b9ef;
+    font-weight: 400;
+}
+header a{
+    color:inherit;
+}
+.top_menu{
+    background: rgba(0,0,0, .6);
+    height: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    font-size: 1.125rem;
+}
+.top_menu ul li{
+    display: inline-block;
+    margin-left: 3.125rem;    
+}
+.top_menu ul li:last-child{
+    margin-left: 5.3125rem;
+}
+.top_menu ul li a:hover{
+    color:#39b9ef;
+    border-bottom: 2px solid #39b9ef;    
+}
+.headline{
+    flex:1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+.headline h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1;
+}
+.headline p{
+    font-size: 1.5rem;
+}
+.headline a{
+    display: inline-block;
+    background-color: #39b9ef;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin-top: 3rem;
+    transition: background-color ease 1s, color ease 1s ;
+        
+}
+.headline a:hover{
+    background-color: #fff;
+    color:#39b9ef;  
+}
+
+@media (max-width:1140px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (max-width:930px){
+    html{
+        font-size: 65%;
+    }
+}
+
+@media (max-width:658px){
+    .top_menu ul{
+        display: none;
+    }
+}
+
+@media (max-width:541px){
+    html{
+    font-size: 50%;
+    }
+}
+
